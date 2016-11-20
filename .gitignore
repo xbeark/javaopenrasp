@@ -7,3 +7,15 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+*.iml
+*.old
+.idea
+.DS_Store
+classes
+.project
+.settings/
+*/.classpath
+*/.gitignore
+*/.project
+.gitignore
+antx.properties
