@@ -12,4 +12,4 @@ add "-javaagent:javaopenrasp.jar" to your jvm arguments
 ### 使用方法
 编译后，将"-javaagent:javaopenrasp.jar"添加至JVM的启动参数
 
-Contact me： xiongxbear@gmail.com
+E-Mail： xiongxbear@gmail.com
