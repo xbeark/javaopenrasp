@@ -12,15 +12,12 @@ import java.util.Set;
  */
 public class SQLServerVisitor extends ClassVisitor {
 
-    public String className;
-
     private static final Set<String> methodName = new HashSet<String>() {{
         add("executeQuery");
         add("execute");
         add("executeUpdate");
         add("addBatch");
     }};
-
     private static final Set<String> descName = new HashSet<String>() {{
         add("(Ljava/lang/String;I)I");
         add("(Ljava/lang/String;[Ljava/lang/String;)I");
@@ -36,6 +33,7 @@ public class SQLServerVisitor extends ClassVisitor {
         add("(Ljava/lang/String;)J");
         add("(Ljava/lang/String;)I");
     }};
+    public String className;
 
     public SQLServerVisitor(ClassVisitor cv, String className) {
         super(Opcodes.ASM5, cv);

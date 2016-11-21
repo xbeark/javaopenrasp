@@ -3,7 +3,6 @@ package xbear.javaopenrasp.filters.sql;
 import com.alibaba.druid.wall.WallProvider;
 import com.alibaba.druid.wall.spi.MySqlWallProvider;
 import com.alibaba.druid.wall.spi.SQLServerWallProvider;
-
 import xbear.javaopenrasp.util.Console;
 
 import java.util.Map;
